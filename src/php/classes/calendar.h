@@ -9,11 +9,11 @@
    +----------------------------------------------------------------------+
 */
 
-#ifndef ECMA_INTL_PHP_COMMON_H
-#define ECMA_INTL_PHP_COMMON_H
+#ifndef ECMA_INTL_PHP_CLASSES_CALENDAR_H
+#define ECMA_INTL_PHP_CLASSES_CALENDAR_H
 
-#include <php.h>
+extern zend_class_entry *ecmaIntlCalendarEnum;
 
-#include "src/common.h"
+void registerEcmaIntlCalendarEnum(void);
 
-#endif /* ECMA_INTL_PHP_COMMON_H */
+#endif /* ECMA_INTL_PHP_CLASSES_CALENDAR_H */
